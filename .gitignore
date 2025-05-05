@@ -1,0 +1,10 @@
+
+.terraform/
+*.zip
+*.tar.gz
+*.exe
+*.bin
+.terraform/
+.codespaces/
+*.zip
+*.json
