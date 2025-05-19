@@ -18,7 +18,7 @@ module "iam" {
 }
 
 module "eks" {
-  source       = "../../modules/eks"
+  source       = "terraform-aws-modules/eks/aws"
   cluster_name = "eks-dev"
   k8s_version  = "1.27"
   subnet_ids   = module.vpc.private_subnets
